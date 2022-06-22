@@ -1,0 +1,111 @@
+﻿  BaseForm.cpp
+  Collection.cpp
+D:\Progaming_projects\Visual_projects\Kursevork\Kursevork\Form.h(552,66): warning C4244: аргумент: преобразование "_Rep" в "unsigned int", возможна потеря данных
+          with
+          [
+              _Rep=std::chrono::system_clock::rep
+          ]
+D:\Visul studia\VC\Tools\MSVC\14.28.29910\include\xstring(2468,23): warning C4244: аргумент: преобразование "wchar_t" в "const _Elem", возможна потеря данных
+          with
+          [
+              _Elem=char
+          ]
+D:\Visul studia\VC\Tools\MSVC\14.28.29910\include\xstring(2479): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)"
+          with
+          [
+              _Iter=wchar_t *
+          ]
+D:\Visul studia\VC\Tools\MSVC\14.28.29910\include\xstring(2479): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)"
+          with
+          [
+              _Iter=wchar_t *
+          ]
+D:\Visul studia\VC\Tools\MSVC\14.28.29910\include\xstring(2459): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)"
+          with
+          [
+              _Iter=wchar_t *
+          ]
+D:\Visul studia\VC\Tools\MSVC\14.28.29910\include\xstring(2459): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)"
+          with
+          [
+              _Iter=wchar_t *
+          ]
+D:\Progaming_projects\Visual_projects\Kursevork\Kursevork\Collection.h(220): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)"
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+D:\Progaming_projects\Visual_projects\Kursevork\Kursevork\Collection.h(220): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)"
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  Compare.cpp
+  Form.cpp
+D:\Progaming_projects\Visual_projects\Kursevork\Kursevork\Form.h(552,66): warning C4244: аргумент: преобразование "_Rep" в "unsigned int", возможна потеря данных
+          with
+          [
+              _Rep=std::chrono::system_clock::rep
+          ]
+  Source.cpp
+D:\Progaming_projects\Visual_projects\Kursevork\Kursevork\Form.h(552,66): warning C4244: аргумент: преобразование "_Rep" в "unsigned int", возможна потеря данных
+          with
+          [
+              _Rep=std::chrono::system_clock::rep
+          ]
+  main.cpp
+D:\Progaming_projects\Visual_projects\Kursevork\Kursevork\Form.h(552,66): warning C4244: аргумент: преобразование "_Rep" в "unsigned int", возможна потеря данных
+          with
+          [
+              _Rep=std::chrono::system_clock::rep
+          ]
+D:\Visul studia\VC\Tools\MSVC\14.28.29910\include\xstring(2468,23): warning C4244: аргумент: преобразование "wchar_t" в "const _Elem", возможна потеря данных
+          with
+          [
+              _Elem=char
+          ]
+D:\Visul studia\VC\Tools\MSVC\14.28.29910\include\xstring(2479): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)"
+          with
+          [
+              _Iter=wchar_t *
+          ]
+D:\Visul studia\VC\Tools\MSVC\14.28.29910\include\xstring(2479): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)"
+          with
+          [
+              _Iter=wchar_t *
+          ]
+D:\Visul studia\VC\Tools\MSVC\14.28.29910\include\xstring(2459): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)"
+          with
+          [
+              _Iter=wchar_t *
+          ]
+D:\Visul studia\VC\Tools\MSVC\14.28.29910\include\xstring(2459): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)"
+          with
+          [
+              _Iter=wchar_t *
+          ]
+D:\Progaming_projects\Visual_projects\Kursevork\Kursevork\Collection.h(220): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)"
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+D:\Progaming_projects\Visual_projects\Kursevork\Kursevork\Collection.h(220): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)"
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  Создание кода...
+D:\Progaming_projects\Visual_projects\Kursevork\Kursevork\CompareForm.h(33): warning C4715: DataKey::set_key_from_form: значение возвращается не при всех путях выполнения
+D:\Progaming_projects\Visual_projects\Kursevork\Kursevork\CompareForm.h(83): warning C4715: WorkKey::set_key_from_form: значение возвращается не при всех путях выполнения
+D:\Progaming_projects\Visual_projects\Kursevork\Kursevork\CompareForm.h(104): warning C4715: EducationKey::set_key_from_form: значение возвращается не при всех путях выполнения
+D:\Progaming_projects\Visual_projects\Kursevork\Kursevork\CompareForm.h(56): warning C4715: RelativesKey::set_key_from_form: значение возвращается не при всех путях выполнения
+D:\Progaming_projects\Visual_projects\Kursevork\Kursevork\Form.h(173): warning C4715: Form::Parents::get_miniparents: значение возвращается не при всех путях выполнения
+  Kursevork.vcxproj -> D:\Progaming_projects\Visual_projects\Kursevork\Debug\Kursevork.exe

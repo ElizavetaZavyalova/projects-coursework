@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Game_New</class>
+ <widget class="QMainWindow" name="Game_New">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1326</width>
+    <height>792</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QToolBar" name="toolBardown">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI Light</family>
+     <pointsize>13</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::NoToolBarArea</set>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="exit"/>
+   <addaction name="ruls"/>
+  </widget>
+  <widget class="QToolBar" name="toolBarright">
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI Light</family>
+     <pointsize>13</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::NoToolBarArea</set>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>120</width>
+     <height>120</height>
+    </size>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextBesideIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>RightToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="to41"/>
+   <addaction name="to31"/>
+   <addaction name="clay"/>
+   <addaction name="millet"/>
+   <addaction name="stown"/>
+   <addaction name="tree"/>
+   <addaction name="wool"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="font">
+    <font>
+     <family>Yu Gothic UI Light</family>
+     <pointsize>13</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::NoToolBarArea</set>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <property name="floatable">
+    <bool>true</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>BottomToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="map"/>
+   <addaction name="monopoly"/>
+   <addaction name="ivent"/>
+   <addaction name="new_roud"/>
+   <addaction name="knit"/>
+   <addaction name="separator"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar_2">
+   <property name="windowTitle">
+    <string>toolBar_2</string>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::NoToolBarArea</set>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>LeftToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="millet_2"/>
+   <addaction name="tree_2"/>
+   <addaction name="clay_2"/>
+   <addaction name="stown_2"/>
+   <addaction name="wool_2"/>
+   <addaction name="army"/>
+   <addaction name="points"/>
+   <addaction name="roud_2"/>
+   <addaction name="sity_2"/>
+   <addaction name="wilage_2"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar_3">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial Rounded MT Bold</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="windowTitle">
+    <string>toolBar_3</string>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>150</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextBesideIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="Red"/>
+   <addaction name="Blue"/>
+   <addaction name="White"/>
+   <addaction name="Yellow"/>
+   <addaction name="endgame"/>
+  </widget>
+  <action name="clay">
+   <property name="icon">
+    <iconset resource="ToolBarspicture.qrc">
+     <normaloff>:/new/prefix1/res/ship21clay.png</normaloff>
+     <normalon>:/new/prefix1/res/clay.png</normalon>:/new/prefix1/res/ship21clay.png</iconset>
+   </property>
+   <property name="text">
+    <string>2:1</string>
+   </property>
+   <property name="toolTip">
+    <string>2:1</string>
+   </property>
+  </action>
+  <action name="millet">
+   <property name="icon">
+    <iconset resource="ToolBarspicture.qrc">
+     <normaloff>:/new/prefix1/res/ship21millet.png</normaloff>
+     <normalon>:/new/prefix1/res/milet.png</normalon>:/new/prefix1/res/ship21millet.png</iconset>
+   </property>
+   <property name="text">
+    <string>2:1</string>
+   </property>
+   <property name="toolTip">
+    <string>2:1</string>
+   </property>
+  </action>
+  <action name="tree">
+   <property name="icon">
+    <iconset resource="ToolBarspicture.qrc">
+     <normaloff>:/new/prefix1/res/ship21tree.png</normaloff>
+     <normalon>:/new/prefix1/res/tree.png</normalon>:/new/prefix1/res/ship21tree.png</iconset>
+   </property>
+   <property name="text">
+    <string>2:1</string>
+   </property>
+   <property name="toolTip">
+    <string>2:1</string>
+   </property>
+  </action>
+  <action name="stown">
+   <property name="icon">
+    <iconset resource="ToolBarspicture.qrc">
+     <normaloff>:/new/prefix1/res/ship21stown.png</normaloff>
+     <normalon>:/new/prefix1/res/stone.png</normalon>:/new/prefix1/res/ship21stown.png</iconset>
+   </property>
+   <property name="text">
+    <string>2:1</string>
+   </property>
+   <property name="toolTip">
+    <string>2:1</string>
+   </property>
+  </action>
+  <action name="wool">
+   <property name="icon">
+    <iconset resource="ToolBarspicture.qrc">
+     <normaloff>:/new/prefix1/res/ship21ship.png</normaloff>
+     <normalon>:/new/prefix1/res/shipbe.png</normalon>:/new/prefix1/res/ship21ship.png</iconset>
+   </property>
+   <property name="text">
+    <string>2:1</string>
+   </property>
+   <property name="toolTip">
+    <string>2:1</string>
+   </property>
+  </action>
+  <action name="to41">
+   <property name="icon">
+    <iconset resource="ToolBarspicture.qrc">
+     <normaloff>:/new/prefix1/res/ship41.png</normaloff>:/new/prefix1/res/ship41.png</iconset>
+   </property>
+   <property name="text">
+    <string>4:1</string>
+   </property>
+   <property name="toolTip">
+    <string>4:1</string>
+   </property>
+  </action>
+  <action name="army">
+   <property name="icon">
+    <iconset>
+     <normalon>:/new/prefix1/res/knite.png</normalon>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="toolTip">
+    <string>Войско</string>
+   </property>
+  </action>
+  <action name="to31">
+   <property name="icon">
+    <iconset resource="ToolBarspicture.qrc">
+     <normaloff>:/new/prefix1/res/ship31.png</normaloff>:/new/prefix1/res/ship31.png</iconset>
+   </property>
+   <property name="text">
+    <string>3:1</string>
+   </property>
+   <property name="toolTip">
+    <string>3:1</string>
+   </property>
+  </action>
+  <action name="exit">
+   <property name="text">
+    <string>Выход</string>
+   </property>
+  </action>
+  <action name="millet_2">
+   <property name="icon">
+    <iconset resource="ToolBarspicture.qrc">
+     <normaloff>:/new/prefix1/res/milet.png</normaloff>:/new/prefix1/res/milet.png</iconset>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="toolTip">
+    <string>Пшено</string>
+   </property>
+  </action>
+  <action name="tree_2">
+   <property name="icon">
+    <iconset resource="ToolBarspicture.qrc">
+     <normaloff>:/new/prefix1/res/tree.png</normaloff>:/new/prefix1/res/tree.png</iconset>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="toolTip">
+    <string>Дерево</string>
+   </property>
+  </action>
+  <action name="clay_2">
+   <property name="icon">
+    <iconset resource="ToolBarspicture.qrc">
+     <normaloff>:/new/prefix1/res/clay.png</normaloff>:/new/prefix1/res/clay.png</iconset>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="toolTip">
+    <string>Глина</string>
+   </property>
+  </action>
+  <action name="stown_2">
+   <property name="icon">
+    <iconset resource="ToolBarspicture.qrc">
+     <normaloff>:/new/prefix1/res/stone.png</normaloff>:/new/prefix1/res/stone.png</iconset>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="toolTip">
+    <string>Камень</string>
+   </property>
+  </action>
+  <action name="wool_2">
+   <property name="icon">
+    <iconset resource="ToolBarspicture.qrc">
+     <normaloff>:/new/prefix1/res/shipbe.png</normaloff>:/new/prefix1/res/shipbe.png</iconset>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="toolTip">
+    <string>Шерсть</string>
+   </property>
+  </action>
+  <action name="points">
+   <property name="icon">
+    <iconset resource="ToolBarspicture.qrc">
+     <normaloff>:/new/prefix1/res/points.jpg</normaloff>:/new/prefix1/res/points.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="toolTip">
+    <string>Победные очки</string>
+   </property>
+  </action>
+  <action name="map">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ToolBarspicture.qrc">
+     <normaloff>:/new/prefix1/res/map.jpg</normaloff>:/new/prefix1/res/map.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Карта развития.&lt;/p&gt;&lt;p&gt;Цена:&lt;/p&gt;&lt;p&gt;Шерсть=1&lt;/p&gt;&lt;p&gt;Пшено=1&lt;/p&gt;&lt;p&gt;Камень=1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </action>
+  <action name="monopoly">
+   <property name="icon">
+    <iconset resource="ToolBarspicture.qrc">
+     <normaloff>:/new/prefix1/res/m1.png</normaloff>:/new/prefix1/res/m1.png</iconset>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/new/prefix1/res/m.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </action>
+  <action name="ivent">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ToolBarspicture.qrc">
+     <normaloff>:/new/prefix1/res/i1.png</normaloff>:/new/prefix1/res/i1.png</iconset>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/new/prefix1/res/i.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </action>
+  <action name="new_roud">
+   <property name="icon">
+    <iconset resource="ToolBarspicture.qrc">
+     <normaloff>:/new/prefix1/res/r1.png</normaloff>:/new/prefix1/res/r1.png</iconset>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/new/prefix1/res/r.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </action>
+  <action name="knit">
+   <property name="icon">
+    <iconset resource="ToolBarspicture.qrc">
+     <normaloff>:/new/prefix1/res/k1.png</normaloff>:/new/prefix1/res/k1.png</iconset>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;/&gt;&lt;img src=&quot;:/new/prefix1/res/k.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </action>
+  <action name="ruls">
+   <property name="text">
+    <string>Правила</string>
+   </property>
+   <property name="toolTip">
+    <string>Правила</string>
+   </property>
+  </action>
+  <action name="Red">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ToolBarspicture.qrc">
+     <normaloff>:/new/prefix1/res/roudred.jpg</normaloff>
+     <disabledoff>:/new/prefix1/res/roudred.jpg</disabledoff>
+     <activeon>:/new/prefix1/res/roudqw.jpg</activeon>:/new/prefix1/res/roudred.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>R</string>
+   </property>
+   <property name="toolTip">
+    <string>Красный игрок</string>
+   </property>
+  </action>
+  <action name="Blue">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ToolBarspicture.qrc">
+     <normaloff>:/new/prefix1/res/roudblue.jpg</normaloff>:/new/prefix1/res/roudblue.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>B</string>
+   </property>
+   <property name="toolTip">
+    <string>Синий игрок</string>
+   </property>
+  </action>
+  <action name="Yellow">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ToolBarspicture.qrc">
+     <normaloff>:/new/prefix1/res/roudyellow.jpg</normaloff>:/new/prefix1/res/roudyellow.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Y</string>
+   </property>
+   <property name="toolTip">
+    <string>Желтый игрок</string>
+   </property>
+  </action>
+  <action name="White">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ToolBarspicture.qrc">
+     <normaloff>:/new/prefix1/res/roudwhite.jpg</normaloff>:/new/prefix1/res/roudwhite.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>W</string>
+   </property>
+   <property name="toolTip">
+    <string>Белыйый игрок</string>
+   </property>
+  </action>
+  <action name="roud_2">
+   <property name="icon">
+    <iconset resource="ToolBarspicture.qrc">
+     <normaloff>:/new/prefix1/res/roudred.jpg</normaloff>
+     <disabledon>:/new/prefix1/res/roudred.jpg</disabledon>:/new/prefix1/res/roudred.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Дорога&lt;/p&gt;&lt;p&gt;Цена:&lt;/p&gt;&lt;p&gt;Глина=1&lt;/p&gt;&lt;p&gt;Дерево=1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </action>
+  <action name="sity_2">
+   <property name="icon">
+    <iconset resource="ToolBarspicture.qrc">
+     <normaloff>:/new/prefix1/res/house2Red.png</normaloff>:/new/prefix1/res/house2Red.png</iconset>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Город&lt;/p&gt;&lt;p&gt;Цена:&lt;/p&gt;&lt;p&gt;Камень=3&lt;/p&gt;&lt;p&gt;Пшено=2&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </action>
+  <action name="wilage_2">
+   <property name="icon">
+    <iconset resource="ToolBarspicture.qrc">
+     <normaloff>:/new/prefix1/res/house1Red.png</normaloff>:/new/prefix1/res/house1Red.png</iconset>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Поселения&lt;/p&gt;&lt;p&gt;Цена:&lt;/p&gt;&lt;p&gt;Дерево=1&lt;/p&gt;&lt;p&gt;Глина=1&lt;/p&gt;&lt;p&gt;Пшено=1&lt;/p&gt;&lt;p&gt;Шерсть=1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </action>
+  <action name="endgame">
+   <property name="text">
+    <string>Максимальное кол-во победных очков 9</string>
+   </property>
+   <property name="toolTip">
+    <string>Максимальное кол-во победных очков</string>
+   </property>
+  </action>
+  <action name="save">
+   <property name="text">
+    <string>Сохранить</string>
+   </property>
+   <property name="toolTip">
+    <string>Нажмите что бы сохранить игру</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="ToolBarspicture.qrc"/>
+ </resources>
+ <connections/>
+</ui>

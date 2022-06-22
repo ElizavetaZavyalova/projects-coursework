@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Правила</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QTextEdit" name="textEdit">
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="cursor" stdset="0">
+      <cursorShape>ArrowCursor</cursorShape>
+     </property>
+     <property name="mouseTracking">
+      <bool>false</bool>
+     </property>
+     <property name="acceptDrops">
+      <bool>true</bool>
+     </property>
+     <property name="inputMethodHints">
+      <set>Qt::ImhMultiLine</set>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:14pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;Цель игры&lt;/span&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; color:#000000;&quot;&gt; — набрать нужное количество победных очков, совершая определённые действия. Это кол-во победных очков по умолчанию равно 13, но их можно изменить нажав кнопку «Настройки». При этом всплывает диалоговое окно, в котором можно выбрать кол-во игроков, поставив галочку соответствующего цвета («Красный», «Синий», «Желтый», «Белый»), ввести имя игрока, выбрать является ли игрок искусственным интеллектом. Если выбрано меньше двух игроков, то в игре участвуют только красный и синий. Если искусственный интеллект проставлен у всех четырех игроков, то красный игрок не будет искусственным интеллектом.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; color:#000000;&quot;&gt;Получать баллы в игре нелегко. Способов всего несколько: &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; color:#000000;&quot;&gt;Первый — строительство поселений или городов. За каждое поселение игрок получает 1 очко, за город 2 очка. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; color:#000000;&quot;&gt;Второй — покупка карточек развития. Некоторые из них дают игроку по одному победному очку. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; color:#000000;&quot;&gt;Третий — получать бонусные карты за достижения.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; color:#000000;&quot;&gt;Главная проблема в том, чтобы не только завоевать их, но и удержать. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;Правила игры :&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; color:#000000;&quot;&gt;Для начала игры нажмите кнопку «Начать игру»&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; color:#000000;&quot;&gt;Перед вами появится поле из 19 гексов (шестиугольников). На них изображены различные ресурсы. По центру карты находиться фигурка разбойника. На правом тул-баре выводится информация о текущем состояние игрока. Цвет значков (дорога, поселение, город) меняет цвет и соответствует цвету выбранным игроком, который ходит в настоящие время.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; color:#000000;&quot;&gt;Вы так же можете посмотреть информацию о других игроках, для этого наводите мышку на соответствующее имя и цвет на верхним тул-баре. Так же на нем выводится информвция о максимально возможном кол-ве очков которые можно набрать в этой игре (условие победы).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; color:#000000;&quot;&gt;После подготовки наступает фаза первоначального развития. Каждый игрок строит два поселения на любых перекрёстках, то есть местах соприкосновения двух или более гексов (шестиугольников). &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; color:#000000;&quot;&gt;Право постройки передается игрокам поочередно. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; color:#000000;&quot;&gt;Сначала строится по одному поселению и дороги прилегающей к нему. Потом это повторятся еще раз. При этом рядом с поселением не должно быть чужой дороги и рядом с дорогой не должно быть чужого поселения. Для постройки поселения нажмите на перекресток пересечения гексов. Для постройки дороги нажмите на ребро гекса.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; color:#000000;&quot;&gt;Постройка поселений сразу же приносит каждому участнику два победных очка. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;Партия начинается.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; color:#000000;&quot;&gt;Текущий игрок нажимает кубик для следующего хода игрока. Для этого нажмите на кубики (это означает окончание хода).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; color:#000000;&quot;&gt;Выпавшее число означает гексы (шестиугольники), которые будут приносить ресурсы («глина», «шерсть», «пшено», «дерево», «камень») в ход этого игрока. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; color:#000000;&quot;&gt;Каждое поселение стоящее на углу гекса (шестиугольника) приносит игроку по 1 соответствующему ресурсу, а город по 2 ресурса.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; color:#000000;&quot;&gt;Ресурсы получают все игроки, а не только активный. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;Торговля. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; color:#000000;&quot;&gt;Игрок может обменять ресурсы в игровом банке.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; color:#000000;&quot;&gt;Обмен 4:1 (ресурса) у каждого игрока есть по умолчанию. Чтобы получит более выгодные тарифы, нужно построить поселение (или город) около моря и иметь пристань для кораблей купцов. Выбор корабля, с которым идет в данный момент торговля, осуществляется на правом тул-баре. Чтобы поменять обменный ресурс, при наличии такой возможности, нажмите на картинку на высветившимся поле. Чтобы заключить сделку нажмите кнопку «Торговать». Что бы закончить торговлю, нажмите кнопку «Закончить торговлю».&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;Строительство, покупка карт развития. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; color:#000000;&quot;&gt;При наличии необходимых ресурсов, игрок имеет право построить любое поселение, город или дорогу, а также приобрести карточку развития. Она находится на нижнем тул-баре. Также там находятся особенные карты развития, которые дают возможность игроку произвести определенные действия. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;Особые карты&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; color:#000000;&quot;&gt;Их эффект всегда указан на обратной стороне. К примеру, рыцарь прогоняет разбойника , а «прорыв» даёт бесплатные ресурсы или мгновенно строит дороги. Бесплатные ресурсы можно выбрать на левом тул-баре. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; color:#000000;&quot;&gt;Среди акарт развития также есть карточки, которые приносят победные очки. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; color:#000000;&quot;&gt;Кроме карт развития в «Колонизаторах» имеется две бонусные карты «достижений»: за самый длинный тракт и за самое большую войско. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; color:#000000;&quot;&gt;Первый приз достаётся игроку, построившему торговый путь длиной в 5 единиц, второй даётся за армию из 3 рыцарей. Интерес заключается в том, что игрок может перехватить карточки достижений у соперника, если сможет собрать большую армию или построить более длинную дорогу. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;Строительство&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; color:#000000;&quot;&gt;Больше всего победных очков вы будете получать именно за строительство зданий. Каждое поселение приносит игроку 1 победное очко, каждый город — 2. Города нельзя строить отдельно от поселений: они считаются своеобразным улучшением. Главный плюс городов в том, что они приносят владельцу в два раза больше ресурсов. Помните, что строить новые поселения можно только на дорогах. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;Разбойник&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; color:#000000;&quot;&gt;Элемент случайного противодействия — одна из фигурок «Колонизаторов». Если один из игроков выбрасывает на двух кубиках число 7, в ход вступает фигурка разбойников. Прежде всего,у игрока, у которого 7 или больше карт ресурсов, рандомно сбрасываются ресурсы, пока их не станет 7. Затем игрок, для которого были брошены кубики, передвигает фишку разбойников на любой гекс. Этот гекс не приносит участникам доход до тех пор, пока разбойники не перейдут в другую локацию. После этого игрок также получает рандомный ресурс игрока, город которого или поселение стоят на углу этого гекса. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;Конец игры &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Roboto','sans-serif'; font-size:12pt; color:#000000;&quot;&gt;Сырьё в «Колонизаторах» накапливать нелегко, особенно в начале игры. Здесь многое зависит от стартовой расстановки, действий разбойников и успешной торговли. В идеале, нужно получить доступ ко всему набору сырья. Однако никто не запрещает вам устроить монополию на один тип ресурса. По ходу партии, поселения будут постепенно превращаться в города, а весь остров будет обрастать дорогами. Помните, что ваша цель — не накопить ресурсы, а получить определенное кол-во победных очков. После этого партия автоматически заканчивается. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
